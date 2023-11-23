@@ -11,12 +11,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/php-app/Loja_Carros" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2YKF7SiSzsi3aHXDjYwvMU0Z4R5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,7 +59,7 @@
       <updated>1700266199769</updated>
       <workItem from="1700266201518" duration="8789000" />
       <workItem from="1700319826191" duration="21000" />
-      <workItem from="1700771965166" duration="1373000" />
+      <workItem from="1700771965166" duration="1822000" />
     </task>
     <servers />
   </component>
