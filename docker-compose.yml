@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  apache-php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - ./php-app:/var/www/html
+
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: loja_carros
+      MYSQL_USER: user
+      MYSQL_PASSWORD: user
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./script.sql:/docker-entrypoint-initdb.d/script.sql
